@@ -1,0 +1,38 @@
+<app-navbar></app-navbar>
+<div class="jiraforms">
+  <form (submit)="isJiraTrue()">
+    <div class="icons">
+      <input type="text" [(ngModel)]="username" name="username" [ngModelOptions]="{standalone: true}" placeholder="Usuario">
+      <i class="material-icons">person</i>
+    </div>
+    
+    <div class="icons">
+      <input type="password" [(ngModel)]="password" [ngModelOptions]="{standalone: true}" placeholder="Contraseña">
+      <i class="material-icons">https</i>
+    </div>
+    
+    <div class="icons">
+      <input type="text" [(ngModel)]="url" [ngModelOptions]="{standalone: true}" placeholder="URL">
+      <i class="material-icons">find_in_page</i>
+    </div>
+    
+     <div class="icons">
+       <input type="text" [(ngModel)]="proyecto" [ngModelOptions]="{standalone: true}" placeholder="Proyecto">
+       <i (click)="isJiraTrue()" class="material-icons">folder_open</i>
+     </div>
+    
+    <div class="icons">
+      <input type="text" [(ngModel)]="componente" [ngModelOptions]="{standalone: true}" placeholder="Componente">
+      <i  class="material-icons">domain</i>
+    </div>
+    
+      <!--Botones-->
+    <input type="submit" value="Guardar">
+    
+    <input type="submit2" routerLink="/board" value="Volver">
+    <div *ngIf="error">{{ error | json }}</div>
+    <div *ngIf="valid">Guardado correctamente!</div>
+  </form>
+</div>
+
+<link rel="stylesheet" media="(max-width: 800px)" href="/appGtt/src/app/jira-forms/jira-forms.component.scss" />

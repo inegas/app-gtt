@@ -1,0 +1,405 @@
+nav {
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  background: #8ed201;
+  //-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 2px 5px 0px #595960;
+  height: 40px;
+ 
+  .active {
+    border-bottom: solid 1px gray;
+  }
+}
+/*Boton salir*/
+
+.button {
+    left: 90%;
+    position: absolute;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 2px;
+    //width: 150px;
+    min-width: 90px;
+    width: 10%;
+    height: 36px;
+    transition: all 0.5s;
+    cursor: pointer;
+   // -webkit-box-shadow: 0px 0px 2px 1px rgb(156, 152, 152);
+    
+}
+.button:focus { outline: none; }
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*Boton Certificado*/
+.button1 {
+    left: 81%;
+    position: absolute;
+    display: inline-block;
+    border-radius: 4px;
+    background-color:transparent;
+    border: none;
+    color: white;
+    text-align: center;
+    //font-size: 25px;
+    font-size: 1.2em;
+    padding: 2px;
+    //width: 150px;
+    min-width: 65px;
+    width: 14%;
+    height: 36px;
+    transition: all 0.5s;
+    cursor: pointer;
+    //-webkit-box-shadow: 0px 0px 2px 1px rgb(156, 152, 152);
+}
+.button1:focus { outline: none; }
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*Buscador*/
+.search {
+  width: 100%;
+  position: relative;
+  
+}
+
+.searchTerm {
+  float: left;
+  width: 100%;
+  border: 3px solid rgb(156, 152, 152);
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.searchTerm:focus{
+  color: gray;
+}
+
+.searchButton {
+  position: absolute;  
+  right: -50px;
+  width: 40px;
+  height: 36px;
+  border: 1px solid rgb(156, 152, 152);
+  background: rgb(156, 152, 152);
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+// .searchButton:hover{
+//     transform: scale(1.1);
+// }
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 15%;
+  position: relative;
+  top: 50%;
+  left: -35%;
+  transform: translate(-50%, -50%);
+}
+/*boton Jira*/
+.button2 {
+    left: 76%;
+    position: absolute;
+    display: inline-block;
+    border-radius: 4px;
+    background-color:transparent;
+    border: transparent;
+    color:white;
+    //color: #FFFFFF;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 2px;
+    //width: 150px;
+    min-width: 53px;
+    width: 10%;
+    height: 36px;
+    transition: all 0.5s;
+    cursor: pointer;
+    //-webkit-box-shadow: 0px 0px 2px 1px rgb(156, 152, 152);
+}
+.button2:focus { outline: none; }
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-right: 25px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*-----------------------------------------------------------------------------------*/
+@media (max-width: 1100px) {
+  nav {
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  background: #8ed201;
+  //-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 2px 5px 0px #595960;
+  height: 40px;
+ 
+  .active {
+    border-bottom: solid 1px gray;
+  }
+}
+/*Boton salir*/
+
+.button {
+    
+    left: 80%;
+    position: absolute;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 2px;
+    //width: 150px;
+    min-width: 90px;
+    width: 10%;
+    height: 36px;
+    transition: all 0.5s;
+    cursor: pointer;
+   // -webkit-box-shadow: 0px 0px 2px 1px rgb(156, 152, 152);
+    
+}
+
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*Boton Certificado*/
+.button1 {
+    left: 64%;
+    position: absolute;
+    display: inline-block;
+    border-radius: 4px;
+    background-color:transparent;
+    border: none;
+    color: white;
+    text-align: center;
+    //font-size: 25px;
+    font-size: 1.2em;
+    padding: 2px;
+    //width: 150px;
+    min-width: 65px;
+    width: 14%;
+    height: 36px;
+    transition: all 0.5s;
+    cursor: pointer;
+    //-webkit-box-shadow: 0px 0px 2px 1px rgb(156, 152, 152);
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*Buscador*/
+.search {
+  width: 100%;
+  position: relative;
+  
+}
+
+.searchTerm {
+  float: left;
+  width: 100%;
+  border: 3px solid rgb(156, 152, 152);
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.searchTerm:focus{
+  color: gray;
+}
+
+.searchButton {
+  position: absolute;  
+  right: -50px;
+  width: 40px;
+  height: 36px;
+  border: 1px solid rgb(156, 152, 152);
+  background: rgb(156, 152, 152);
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+// .searchButton:hover{
+//     transform: scale(1.1);
+// }
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 15%;
+  position: relative;
+  top: 50%;
+  left: -35%;
+  transform: translate(-50%, -50%);
+}
+/*boton Jira*/
+.button2 {
+    left: 50%;
+    position: absolute;
+    display: inline-block;
+    border-radius: 4px;
+    background-color:transparent;
+    border: transparent;
+    color:white;
+    //color: #FFFFFF;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 2px;
+    //width: 150px;
+    min-width: 53px;
+    width: 10%;
+    height: 36px;
+    transition: all 0.5s;
+    cursor: pointer;
+    //-webkit-box-shadow: 0px 0px 2px 1px rgb(156, 152, 152);
+}
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-right: 25px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+  }
+
+}

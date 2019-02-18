@@ -1,0 +1,31 @@
+<div class="card">
+    <div class="detalles">
+            <i class="add" class="material-icons">add</i>
+            <i (click)="doneCert()" class="clear" class="material-icons">clear</i>
+            <i (click)="dowloadFile()"class="arrow" class="material-icons">arrow_downward</i>
+        </div>
+    <div class="infoc">
+            <p><b>Cliente:</b> {{salida2.cliente}}</p>
+            <!-- <hr> -->
+    </div>
+    <div class="infoc">
+            <p><b>Alias:</b> {{salida2.alias}}</p>
+            <!-- <hr> -->
+    </div>
+    <div class="infoc">
+            <h4><b>Nº Serie:</b></h4>
+            <p>{{salida2.nserie}}</p>
+            <!-- <hr> -->
+    </div>
+    <div class="infoc">
+            <p><b>Fecha:</b> {{salida2.vigencia.split(" ", 1)}}</p>
+            <!-- <hr> -->
+    </div>
+    <div class="infoc">
+            <p><b>Cert:</b> {{salida2.subject.split(",", 2)}}</p>
+            <!-- <hr> -->
+    </div>
+    <div *ngIf="valid">FUNCIONOOOO</div>
+</div>
+
+<link rel="stylesheet" media="(max-width: 900px)" href="/AppGTT/appGtt/src/app/certificate/certificate.component.scss" />

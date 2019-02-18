@@ -1,0 +1,139 @@
+.card{
+    background-color: #d3d2d2;
+    width: 86%;
+    margin-top: 5%;
+    position: relative;
+    left: 0.5rem;
+    border-radius: 5px;
+    padding: 1rem 1rem 1rem 1rem;
+    -webkit-box-shadow: 0px 0px 10px 2px #595960;
+    animation: fadein 1s;
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+// hr{
+//     opacity: 0.5;
+//     border-color: #8ed201;
+// }
+.infoc{
+    background-color: white;
+    border-radius: 5px;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.detalles{
+    width: 50%;
+    height: 1rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+    
+}
+i{
+    padding-right: 5px;
+    color: black;
+}
+i:hover{
+    transform: scale(1.2);
+}
+b{
+    font-size: 18px;
+}
+.caducado{
+    background-color: black;
+}
+/*--------------------------------------------------------------------------*/
+@media (max-width: 1100px) {
+    .card{
+    background-color: #d3d2d2;
+    width: 70%;
+    margin-top: 5%;
+    position: relative;
+    left: 2rem;
+    border-radius: 5px;
+    padding: 1rem 1rem 1rem 1rem;
+    -webkit-box-shadow: 0px 0px 10px 2px #595960;
+}
+// hr{
+//     opacity: 0.5;
+//     border-color: #8ed201;
+// }
+.infoc{
+    background-color: white;
+    border-radius: 5px;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.detalles{
+    width: 60%;
+    height: 1rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+    
+}
+i{
+    padding-right: 5px;
+    color: black;
+}
+i:hover{
+    transform: scale(1.2);
+}
+b{
+    font-size: 18px;
+}
+.caducado{
+    background-color: black;
+}
+}
+
+@media (max-width: 1099px) {
+    .card{
+    background-color: #d3d2d2;
+    width: 90%;
+    margin-top: 5%;
+    position: relative;
+    left: 5rem;
+    margin-left: -2rem;
+    border-radius: 5px;
+    padding: 1rem 1rem 1rem 1rem;
+    -webkit-box-shadow: 0px 0px 10px 2px #595960;
+}
+// hr{
+//     opacity: 0.5;
+//     border-color: #8ed201;
+// }
+.infoc{
+    background-color: white;
+    border-radius: 5px;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.detalles{
+    width: 60%;
+    height: 1rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+    
+}
+i{
+    padding-right: 5px;
+    color: black;
+}
+i:hover{
+    transform: scale(1.2);
+}
+b{
+    font-size: 18px;
+}
+.caducado{
+    background-color: black;
+}
+}

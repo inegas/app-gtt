@@ -1,0 +1,31 @@
+<app-navbar></app-navbar>
+<div class="jiraforms">
+  <form>
+    <div class="icons">
+      <input type="text" [(ngModel)]="alias" name="alias"  placeholder="Alias">
+      <i class="material-icons">person</i>
+    </div>
+    <div class="icons">
+      <input type="text" [(ngModel)]="cliente" name="cliente"  placeholder="Nombre cliente">
+      <i class="material-icons">person_pin</i>
+    </div>
+    <div class="icons">
+      <input type="text" [(ngModel)]="email" name="email"  placeholder="E-mail">
+      <i class="material-icons">mail_outline</i>
+    </div>
+    <div class="icons">
+    <input type="text" [(ngModel)]="observ" name="observ"  placeholder="Observaciones">
+      <i class="material-icons">edit</i>
+    </div>
+    
+    
+    
+      <!--Botones-->
+    <input type="file" name="file" id="file" class="inputfile" accept=".pfx, .p12" (change)="changeListener($event)"   multiple/>
+    <label for="file">Elegir Certificado</label>
+    <input type="submit" routerLink="/board" value="Volver">
+  </form>
+</div>
+
+<link rel="stylesheet" media="(max-width: 800px)" href="/appGtt/src/app/jira-forms/jira-forms.component.scss"/>
+
